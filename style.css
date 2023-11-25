@@ -1,0 +1,175 @@
+.navbar {
+    display: flex;
+    justify-content: end;
+    margin: 20px 50px 28px;
+}
+
+.navbar p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 16px;
+}
+
+.slider {
+    display: flex;
+    margin: 100px 120px 80px;
+}
+
+.slider--title {
+    width: 60%;
+}
+
+.slider--title h1 {
+    font-size: 36px;
+    color: #21243D;
+    margin-bottom: 30px;
+}
+
+.slider--title h3 {
+    font-size: 18px;
+    font-weight: 100;
+    color: #21243D;
+    margin-bottom: 30px;
+}
+
+.slider--title button {
+    background-color: #FF6464;
+    margin: 10px 0;
+    color: #fff;
+    border-radius: 2px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.slider--img {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: start;
+}
+
+.slider--img img{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+.recentposts {
+    padding: 0 120px 50px;
+   background-color: #EDF7FA;
+}
+
+.recentposts--header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.recentposts--header p{
+    color: #21243D;
+    font-size: 20px;
+}
+
+.recentposts--header a {
+    margin: auto 0;
+    font-size: 16px;
+    color: #00A8CC;
+    text-decoration: none;
+}
+
+.recentposts--body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recentposts--title {
+    width: 49%;
+    background-color: #fff;
+    color: #21243D;
+    border-radius: 2px;
+}
+
+.recentposts--title h2 {
+    margin: 20px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.recentposts--title1__date {
+    margin: 20px 20px 0;
+    display: flex;
+    font-size: 18px;
+}
+
+.recentposts--title1__date p:first-child {
+    position: relative;
+    margin: 0 64px 0 0;
+}
+
+.recentposts--title1__date p:first-child::after {
+    content: "";
+    position: absolute;
+    right: -45px;
+    top: 2px;
+    height: 16px;
+    border: 1px solid #21243D;
+}
+
+.recentposts--title p {
+    margin: 0 20px 40px 20px;
+}
+
+
+.featuredworks {
+    margin: 0 120px 100px;
+    padding: 0;
+    list-style: none;
+}
+
+.featuredworks--header {
+    color: #21243D;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.featuredworks li {
+    display: flex;
+    margin: 40px 0;
+    height: 200px;
+}
+
+.featuredwork--title {
+    margin: 0 0 0 20px;
+    color: #21243D;
+}
+
+.featuredwork--title h1 {
+    margin: 0;
+}
+
+.featuredwork--title__year {
+    display: flex;
+}
+
+.featuredwork--title__year p:first-child{
+    padding: 3px 6px 0 6px;
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #142850;
+    border-radius: 10px;
+}
+
+.featuredwork--title__year p:nth-child(2){
+    color: #8695A4;
+}
+
+footer img { 
+    width: 100%;
+}
