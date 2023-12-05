@@ -1,0 +1,165 @@
+@media only screen and (max-width: 740px) {
+    header{ 
+        position: fixed;
+        overflow: hidden;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        background-color: white;
+    }
+    
+    .navbar {
+        margin-right: 20px;
+    }
+
+    .navbar p{
+        display: none;
+    }
+    
+    .navbar i {
+        display: block;
+        font-size: 20px;
+    }
+
+    .recentposts {
+        padding: 0 4% 40px;
+        background-color: #EDF7FA;
+    }
+    
+    .recentposts--header{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .recentposts--header p{
+        color: #21243D;
+        font-size: 20px;
+    }
+    
+    .recentposts--header a {
+        margin: auto 0;
+        font-size: 16px;
+        color: #00A8CC;
+        text-decoration: none;
+    }
+    
+    .recentposts--body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .recentposts--title {
+        width: 100%;
+        background-color: #fff;
+        color: #21243D;
+        border-radius: 2px;
+        border-bottom: 1px solid #142850;
+    }
+    
+    .recentposts--title h2 {
+        margin: 20px 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .recentposts--title1__date {
+        margin: 20px 20px 0;
+        display: flex;
+        font-size: 18px;
+    }
+    
+    .recentposts--title1__date p:first-child {
+        position: relative;
+        margin: 0 64px 0 0;
+    }
+    
+    .recentposts--title1__date p:first-child::after {
+        content: "";
+        position: absolute;
+        right: -45px;
+        top: 2px;
+        height: 16px;
+        border: 1px solid #21243D;
+    }
+    
+    .recentposts--title p {
+        margin: 0 20px 40px 20px;
+    }
+    
+    
+    .featuredworks {
+        width: 93vw;
+        padding: 0;
+        list-style: none;
+        margin: 0 3vw;
+    }
+    
+    .featuredworks--header {
+        color: #21243D;
+        font-size: 30px;
+        margin: 20px 0 0 0;
+    }
+    
+    .featuredworks li {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 26px 0;
+        height: 100%;
+    }
+    
+    .featuredworks li::after {
+        content: "";
+        position: absolute;
+        border-bottom: 1px solid #ccc;
+        width: 90vw;
+        height: 1px;
+        top: 594px;
+    }
+
+    .featuredworks img {
+        width: 98%;
+        margin: 0 0 0 4px;      
+    }
+    
+    .featuredwork--title {
+        width: 98%;
+        margin: 0 0 0 4px;  
+        color: #21243D;
+    }
+    
+    .featuredwork--title h1 {
+        margin: 14px 0 0 0;
+        font-size: 25px;
+    }
+    
+    .featuredwork--title__year {
+        display: flex;
+    }
+    
+    .featuredwork--title__year p:first-child{
+        padding: 4px 10px 3px 8px;
+        margin-right: 30px;
+        font-size: 17px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #142850;
+        border-radius: 21px;
+    
+    }
+    
+    .featuredwork--title__year p:nth-child(2){
+        color: #8695A4;
+        margin: 21px 0 0;
+        font-size: 18px;
+    }
+
+    .featuredwork--title {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+}

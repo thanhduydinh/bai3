@@ -8,6 +8,15 @@
     font-size: 20px;
     font-weight: bold;
     margin: 0 16px;
+    cursor: pointer;
+}
+
+.navbar i {
+    display: none;
+}
+
+.navbar p:hover{
+    color: #FF6464;    
 }
 
 .slider {
@@ -138,9 +147,19 @@
 }
 
 .featuredworks li {
+    position: relative;
     display: flex;
     margin: 40px 0;
     height: 200px;
+}
+
+.featuredworks li::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #ccc;
+    width: 930px;
+    height: 1px;
+    top: 220px;
 }
 
 .featuredwork--title {
@@ -172,4 +191,6 @@
 
 footer img { 
     width: 100%;
+    object-fit: none;
 }
+
